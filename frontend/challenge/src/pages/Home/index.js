@@ -1,7 +1,9 @@
 import React, { Component } from 'react'
 
+// CSS
 import './styles.css'
 
+// Images
 import Header from '../../components/1-Header'
 import Section from '../../components/2-Section'
 import Article from '../../components/3-Article'
@@ -12,11 +14,14 @@ class Home extends Component {
     render() {
         return (
             <>
-                <Header />
-                <Section />
-                <Article />
-                <Aside />
-                <Footer />
+                
+                    <Header />
+                <div className="home">
+                    <Section />
+                    <Article />
+                    <Aside />
+                    <Footer />
+                </div>
             </>
         )
     }
