@@ -32,11 +32,12 @@
   header {
     background-color: #000000;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    position: relative;
+    position: absolute;
     padding-left: 100px;
     height: 40px;
+    width: 1440px;
     left: 0px;
     right: 0px;
     top: -200px;
@@ -76,6 +77,7 @@
   /* section */
   
   section {
+    position: relative;
     min-width: 300px;
     max-width: 1136px;
     margin: auto;
@@ -126,7 +128,7 @@
 
   .App {
     position: relative;
-    max-width: 1136px;
+    max-width: 100%;
     margin: 0 auto;
     top: 200px;
   }
