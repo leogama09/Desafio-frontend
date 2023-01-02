@@ -14,7 +14,7 @@ class Section extends Component {
             <section>
                 <div class="mireia">
                     <img src={hero} alt="" class="hero" />
-                    <img src={heromobile} alt="" class="heromobile" />
+                    {/* <img src={heromobile} alt="" class="heromobile" /> */}
                  </div>
 
                 <div class="information">
@@ -25,10 +25,6 @@ class Section extends Component {
                         <input type="image" src={infos} alt="submit"/>
                         </li>
                     </ul>
-                </div>
-
-                <div class="slider">
-          
                 </div>
 
                 <div class="exclusive">
