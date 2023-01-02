@@ -17,23 +17,23 @@ class Aside extends Component {
         return(
             <>
                 <aside>
-                  <div class="commentary">
+                  <div className="commentary">
                     <img src={group13} alt="" />
                     <input type="image" src={disabled1} />
                   </div>
 
-                  <div class="articles">
+                  <div className="articles">
                     <h3>ARTÍCULOS RELACIONADOS</h3>
                     <img src={articulos} alt="" />
                     <input type="image" src={disabled3} />
                   </div>
 
-                  <div class="blog">
+                  <div className="blog">
                     <img src={aprende} alt="" />
                     <input type="image" src={default2} />
                   </div>
 
-                  <div class="contact">
+                  <div className="contact">
                     <ul>
                       <li><input type="image" src={facebook} alt="submit" /></li>
                       <li><input type="image" src={instagram} alt="submit" /></li>

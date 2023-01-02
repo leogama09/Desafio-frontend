@@ -5,7 +5,7 @@ class Footer extends Component {
         return(
             <>
             <footer>
-                <div class="links">
+                <div className="links">
                  <ul>
                    <li><a href="#">Terminos y condiciones</a></li>
                    <li><a href="#">Política de privacidad</a></li>

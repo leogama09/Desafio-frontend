@@ -124,16 +124,9 @@
 
   /* Slider */
 
-  .blank {
-    position: absolute;
-    width: 1136px;
-    height: 320px;
-    left: 152px;
-    top: -150px;
-  }
-
   .App {
     position: relative;
+    max-width: 1136px;
     margin: 0 auto;
     top: 200px;
   }

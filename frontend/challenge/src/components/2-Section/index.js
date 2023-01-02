@@ -12,12 +12,12 @@ class Section extends Component {
         return(
             <>
             <section>
-                <div class="mireia">
-                    <img src={hero} alt="" class="hero" />
+                <div className="mireia">
+                    <img src={hero} alt="" className="hero" />
                     {/* <img src={heromobile} alt="" class="heromobile" /> */}
                  </div>
 
-                <div class="information">
+                <div className="information">
                     <ul>
                         <li><img src={icono1} alt="" /></li>
                         <li><img src={icono2} alt="" /></li>
@@ -27,7 +27,7 @@ class Section extends Component {
                     </ul>
                 </div>
 
-                <div class="exclusive">
+                <div className="exclusive">
                   <h3>CONTENIDO EXCLUSIVOS</h3>
                   <ul>
                     <li><img src={group9} alt="" /></li>

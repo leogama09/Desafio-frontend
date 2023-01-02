@@ -12,12 +12,12 @@ class Article extends Component {
         return (
             <>
             <article>
-                <div class="lesson">
+                <div className="lesson">
                     <img src={group8} alt="" />
                     <input type="image" src={disabled} />
                 </div>
 
-                <div class="courses">
+                <div className="courses">
                   <h3>MÁS CURSOS</h3>
                     <ul>
                       <li><input type="image" src={desktop1} /></li>
@@ -26,17 +26,17 @@ class Article extends Component {
                     </ul>
                 </div>
 
-                <div class="form">
+                <div className="form">
                   <h3>OBTÉN MÁS INFORMACiÓN</h3>
                   <form>
                     <label>
-                      <input type="text" id="displayName" class="box-name" required placeholder="NOMBRE COMPLETO" />
+                      <input type="text" id="displayName" className="box-name" required placeholder="NOMBRE COMPLETO" />
                     </label>
                     <label>
-                      <input type="email" id="email" class="box-email" required placeholder="CORREO ELECTRÔNICO" />
+                      <input type="email" id="email" className="box-email" required placeholder="CORREO ELECTRÔNICO" />
                     </label>
                     <label>
-                      <select class="box-country">
+                      <select className="box-country">
                         <option>PAÍS/CÓDIGO PAÍS</option>
                         <option>Afeganistão: 93</option>
                         <option>África do Sul: 27</option>
@@ -277,18 +277,18 @@ class Article extends Component {
                       </select>
                     </label>
                     <label>
-                      <input type="text" id="cellphone" class="box-cellphone" placeholder="TELÉFONO" />
+                      <input type="text" id="cellphone" className="box-cellphone" placeholder="TELÉFONO" />
                     </label>
                     <label>
-                      <input type="checkbox" data-indice="0" class="box-check1" />
-                      <p class="checkbox1">Acepto las condiciones de uso y protección de datos.</p>
+                      <input type="checkbox" data-indice="0" className="box-check1" />
+                      <p className="checkbox1">Acepto las condiciones de uso y protección de datos.</p>
                     </label>
                     <label>
-                      <input type="checkbox" data-indice="0" class="box-check2" />
-                      <p class="checkbox2">Me gustaría recibir información sobre 
+                      <input type="checkbox" data-indice="0" className="box-check2" />
+                      <p className="checkbox2">Me gustaría recibir información sobre 
                         nuevos cursos, ofertas y promociones</p>
                     </label>
-                    <input type="image" class="button" src={default1} alt="submit" />
+                    <input type="image" className="button" src={default1} alt="submit" />
                   </form>
                 </div>
             </article>
