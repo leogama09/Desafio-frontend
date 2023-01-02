@@ -13,8 +13,8 @@ function Slider() {
     const [width, setWidth] = useState(0)
 
     useEffect(() => {
-        console.log(carousel.current?.scrollWidth, carousel.current?.offsetWidth)
-        setWidth(carousel.current?.scrollWidth - carousel.current?.offsetWidth)
+        console.log(carousel.current.scrollWidth, carousel.current.offsetWidth)
+        setWidth(carousel.current.scrollWidth - carousel.current.offsetWidth)
     }, [])
 
   return (
