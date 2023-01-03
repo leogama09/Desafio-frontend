@@ -14,7 +14,6 @@ class Section extends Component {
             <section>
                 <div className="mireia">
                     <img src={hero} alt="" className="hero" />
-                    {/* <img src={heromobile} alt="" class="heromobile" /> */}
                  </div>
 
                 <div className="information">

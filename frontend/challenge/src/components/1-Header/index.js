@@ -7,7 +7,7 @@ class Header extends Component {
         return(
             <>
               <header>
-                <img src={logo} />
+                <input type="image" src={logo} />
                 <nav className="nav">
                     <ul>
                         <li><a href="#">Cursos</a></li>
