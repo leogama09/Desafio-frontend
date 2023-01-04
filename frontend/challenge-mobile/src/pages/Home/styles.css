@@ -75,7 +75,7 @@
     box-shadow: none;
     margin: 0%;
     top: 350px;
-    left: 0px;
+    left: 10px;
   }
 
   .information img {
@@ -108,5 +108,86 @@
     color: #FFFFFF;
   }
 
+  .exclusive input {
+    position: absolute;
+    top: 580px;
+    left: 10px;
+  }
+
+  .slider h3 {
+    position: absolute;
+    width: 198px;
+    height: 20px;
+    left: calc(50% - 198px/2);
+    top: 650px;
+    
+    /* Heading 3 */
+    
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height, or 125% */
+    
+    text-align: center;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+  }
+
+  .slider p {
+    position: absolute;
+    width: 304px;
+    height: 112px;
+    left: calc(50% - 304px/2);
+    top: 678px;
+
+    /* Body 2 */
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    /* or 114% */
+
+    text-align: center;
+
+    /* Color/Primary/Dark 50% */
+
+    color: #858479;
+  }
+
   /* section */
+
+  /* slider */
+
+  .App-slider {
+    position: absolute;
+    width: 436px;
+    height: 109px;
+    left: 8px;
+    top: 800px;
+    max-width: 100%;
+  }
+
+  .inner {
+    display: flex;
+  }
+
+  .item {
+    padding: 2px;
+  }
+
+  .item img {
+    pointer-events: none;
+  }
+
+  .carousel {
+    cursor: grab;
+    overflow: hidden;
+  }
+
+  /* slider */
 
