@@ -57,7 +57,7 @@
 
   section {
     position: relative;
-    max-width: 400px;
+    max-width: 320px;
     margin: auto;
   }
 
@@ -191,3 +191,224 @@
 
   /* slider */
 
+/* article */
+
+  .lesson ul {
+    position: absolute;
+    display: flex;
+    width: 80px;
+    height: 66px;
+    left: 10px;
+    top: 950px;
+  }
+
+  .highlights h3 {
+    position: absolute;
+    width: 181px;
+    height: 20px;
+    left: calc(50% - 181px/2 + 0.5px);
+    top: 1040px;
+
+    /* Heading 3 */
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height, or 125% */
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+  }
+
+  .highlights ul {
+    position: absolute;
+    width: 288px;
+    height: 24px;
+    left: 30px;
+    top: 1080px;
+  }
+
+  .button {
+    position: relative;
+    height: 40px;
+    left: 15px;
+    right: 8px;
+    top: 1230px;
+  }
+
+  .highlights img {
+    position: absolute;
+    width: 288px;
+    height: 91px;
+    left: 30px;
+    top: 1290px;
+  }
+
+  form {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 752px;
+    height: 205px;
+    left: 0;
+    top: 1400px;
+    display: block;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 0 20px;
+  }
+
+  .form h3 {
+    position: absolute;
+    width: 221.67px;
+    height: 20px;
+    left: 60px;
+    top: 1400px;
+
+    /* Heading 3 */
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height, or 125% */
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+  }
+
+  form label {
+    position: relative;
+    display: flex;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    box-shadow: 0px 7px 64px rgba(0, 0, 0, 0.07);
+    border-radius: 4px;
+  }
+
+  .form form label input {
+    width: 304px;
+    height: 40px;
+    outline-style: none;
+    border-style: none;
+    border-radius: 4px;
+    padding-left: 5px;
+    font-size: 1rem;
+}
+
+  .form > form {
+    position: relative;
+    display: flex;
+    padding: 0 20px;
+    width: 368px;
+    height: 40px;
+    left: 0px;
+    top: 1400px;
+  }
+
+  .button3 {
+    position: relative;
+    width: 310px;
+    height: 40px;
+    left: 0px;
+    top: 30px;
+  }
+
+  .checkbox1 {
+    position: relative;
+    width: 430px;
+    height: 20px;
+    left: -35px;
+    top: 5px;
+  
+    /* Body 2 */
+  
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    /* or 114% */
+  
+  
+    /* Color/Primary/Dark 50% */
+  
+    color: #858479;
+  }
+  
+  .checkbox2 {
+    position: relative;
+    width: 270.22px;
+    height: 32px;
+    left: 30px;
+    top: 25px;
+  
+    /* Body 2 */
+  
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    /* or 114% */
+  
+    /* Color/Primary/Dark 50% */
+  
+    color: #858479;
+  }
+
+/* fill-boxes */
+
+/* country code */
+   select {
+     width: 310px;
+     height: 40px;
+     border-radius: 4px;
+   }
+/* country code */
+
+.box-country {
+    position: relative;
+    width: 310px;
+    height: 40px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+  /* identical to box height, or 125% */
+  
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  }
+
+  .box-check1 {
+    position: absolute;
+    width: 25.33px;
+    height: 24px;
+    left: -130px;
+    top: 0px;
+  }
+
+  .box-check2 {
+    position: absolute;
+    width: 25.33px;
+    height: 24px;
+    left: -130px;
+    top: 20px;
+  }
+
+/* fill-boxes */
+
+/* article */

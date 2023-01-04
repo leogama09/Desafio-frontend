@@ -1,9 +1,16 @@
 import React, { Component } from 'react'
 
-import icon1 from '../../assets/icon+text1.png'
+import icon1 from '../../assets/icon+text.png'
 import icon2 from '../../assets/icon+text2.png'
 import icon3 from '../../assets/icon+text3.png'
 import icon4 from '../../assets/icon+text4.png'
+import course1 from '../../assets/course list1.png'
+import course2 from '../../assets/course list2.png'
+import course3 from '../../assets/course list3.png'
+import course4 from '../../assets/course list4.png'
+import button from '../../assets/Disabled1.png'
+import satisfaction from '../../assets/satisfaction.png'
+import button2 from '../../assets/Default.png'
 
 class Articlemobile extends Component {
     render() {
@@ -11,17 +18,24 @@ class Articlemobile extends Component {
             <>
             <article>
                 <div className="lesson">
-                    <img src={group8} alt="" />
-                    <input type="image" src={disabled} />
+                    <ul>
+                        <li><img src={icon1} alt="" /></li>
+                        <li><img src={icon2} alt="" /></li>
+                        <li><img src={icon3} alt="" /></li>
+                        <li><img src={icon4} alt="" /></li>
+                    </ul>
                 </div>
 
-                <div className="courses">
-                  <h3>MÁS CURSOS</h3>
+                <div className="highlights">
+                    <h3>DESTAQUES del curso</h3>
                     <ul>
-                      <li><input type="image" src={desktop1} /></li>
-                      <li><input type="image" src={desktop2} /></li>
-                      <li><input type="image" src={desktop3} /></li>
+                        <li><input type="image" src={course1} /></li>
+                        <li><input type="image" src={course2} /></li>
+                        <li><input type="image" src={course3} /></li>
+                        <li><input type="image" src={course4} /></li>
                     </ul>
+                    <input className="button" type="image" src={button} />
+                    <img src={satisfaction} alt="" />
                 </div>
 
                 <div className="form">
@@ -279,16 +293,17 @@ class Articlemobile extends Component {
                     </label>
                     <label>
                       <input type="checkbox" data-indice="0" className="box-check1" />
-                      <p className="checkbox1">Acepto las condiciones de uso y protección de datos.</p>
+                      <p className="checkbox1">Acepto las condiciones de uso y protección <br /> de datos. </p>
                     </label>
                     <label>
                       <input type="checkbox" data-indice="0" className="box-check2" />
                       <p className="checkbox2">Me gustaría recibir información sobre 
                         nuevos cursos, ofertas y promociones</p>
                     </label>
-                    <input type="image" className="button" src={default1} alt="submit" />
+                    <input type="image" className="button3" src={button2} alt="submit" />
                   </form>
                 </div>
+
             </article>
             </>
         )
