@@ -3,7 +3,6 @@ import React, { Component } from 'react'
 // CSS
 import './styles.css'
 
-
 import Header from '../../components/1-Header'
 import Section from '../../components/2-Section'
 import Article from '../../components/3-Article'

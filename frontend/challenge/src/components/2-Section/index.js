@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 
 import hero from '../../assets/Hero.png'
-import heromobile from '../../assets/Hero mobile.png'
 import icono1 from '../../assets/icono 1.png'
 import icono2 from '../../assets/icono 2.png'
 import infos from '../../assets/buttons/mas infos.svg'
