@@ -165,7 +165,6 @@
 
   .App-slider {
     position: absolute;
-    width: 436px;
     height: 109px;
     left: 8px;
     top: 800px;
@@ -174,6 +173,8 @@
 
   .inner {
     display: flex;
+    gap: 10px;
+    width: 450px;
   }
 
   .item {
@@ -374,6 +375,7 @@
      width: 310px;
      height: 40px;
      border-radius: 4px;
+     color: #858479;
    }
 /* country code */
 
@@ -412,3 +414,265 @@
 /* fill-boxes */
 
 /* article */
+
+/* aside */
+
+  .commentary h3 {
+    position: absolute;
+    width: 222px;
+    height: 20px;
+    left: calc(50% - 222px/2);
+    top: 1820px;
+
+    /* Heading 3 */
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height, or 125% */
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+  }
+
+  /* commentary slider */
+
+  .CommentarySlider {
+    position: absolute;
+    max-width: 100%;
+    height: 172px;
+    left: 0px;
+    top: 1860px;
+  }
+
+  .inner {
+    display: flex;
+    gap: 10px;
+    width: 550px;
+  }
+
+  .item {
+    padding: 0px;
+  }
+
+  .item img {
+    pointer-events: none;
+  }
+
+  .carousel {
+    cursor: grab;
+    overflow: hidden;
+  }
+
+  /* commentary slider */
+
+  .courses {
+    position: absolute;
+    width: 222px;
+    height: 20px;
+    left: calc(50% - 222px/2);
+    top: 2040px;
+
+    /* Heading 3 */
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height, or 125% */
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+  }
+
+  .courses ul {
+    position: absolute;
+    display: block;
+    left: -30px;
+    top: 30px;
+    gap: 20px;
+  }
+
+  .articles h3 {
+    position: absolute;
+    width: 213px;
+    height: 20px;
+    left: calc(50% - 213px/2 + 0.5px);
+    top: 2420px;
+
+    /* Heading 3 */
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height, or 125% */
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+  }
+
+  .articles ul {
+    position: absolute;
+    width: 304px;
+    height: 395px;
+    left: 8px;
+    top: 2470px;
+  }
+
+  .contact h3 {
+    position: absolute;
+    height: 20px;
+    left: 64px;
+    right: 63px;
+    top: 2830px;
+    bottom: 228px;
+
+    /* Heading 3 */
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height, or 125% */
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+  }
+
+  .contact ul {
+    position: absolute;
+    display: flex;
+    width: 200px;
+    height: 24px;
+    left: 70px;
+    top: 2860px;
+    gap: 30px;
+  }
+
+  .contact h4 {
+    position: absolute;
+    height: 16px;
+    left: 41px;
+    right: 40px;
+    bottom: 142px;
+    top: 2910px;
+
+    /* Heading 4 */
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    /* identical to box height, or 133% */
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+  }
+
+  .phone {
+    position: absolute;
+    height: 40px;
+    left: 70px;
+    right: 70px;
+    top: 2935px;
+    bottom: 92px;
+  }
+
+  .contact img {
+    position: relative;
+    left: -120px;
+    right: 82.91%;
+    top: 2930px;
+    bottom: 1.17%;
+  }
+
+  .currency li {
+    position: relative;
+    display: flex;
+    width: 28px;
+    height: 16px;
+    left: 150px;
+    top: 155px;
+    bottom: 36px;
+
+    /* Small Text */
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 8px;
+    line-height: 16px;
+    /* identical to box height, or 200% */
+
+    color: #FFFFFF;
+  }
+
+  a, li {
+    list-style: none;
+    text-decoration: none;
+  }
+
+/* aside */
+
+/* footer */
+
+footer {
+    position: absolute;
+    width: 105px;
+    height: 10px;
+    left: 8px;
+    top: 3050px;
+}
+
+.links ul {
+    position: absolute;
+    display: flex;
+    width: 105px;
+    height: 10px;
+    left: 105px;
+    top: 0px;
+    gap: 15px;
+}
+
+.links li a {
+    position: relative;
+    width: 105px;
+    height: 10px;
+    left: calc(50% - 105px/2 - 99.5px);
+    bottom: 12px;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 10px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+
+    /* Color/Primary/Dark 50% */
+
+    color: #858479;
+}
+
+/* footer */

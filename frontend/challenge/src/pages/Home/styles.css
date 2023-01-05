@@ -138,7 +138,6 @@
 
   .App {
     position: relative;
-    width: 1146px;
     max-width: 100%;
     margin: 0 auto;
     top: 200px;
@@ -146,6 +145,7 @@
 
   .inner {
     display: flex;
+    width: 2000px;
   }
 
   .item {

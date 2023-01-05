@@ -1,14 +1,11 @@
 import React, { Component, useState, useEffect, useRef } from 'react'
 import { motion } from 'framer-motion'
 
-import image1 from '../../assets/foto0-slider.png'
-import image2 from '../../assets/foto1-slider.jpg'
-import image3 from '../../assets/foto2-slider.jpg'
-import image4 from '../../assets/foto3-slider.jpg'
+import image1 from '../../assets/Comentarios.png'
 
-const images = [image1, image2, image3, image4]
+const images = [image1, image1]
 
-function Slider() {
+function CommentarySlider() {
     const carousel = useRef()
     const [width, setWidth] = useState(0)
 
@@ -18,7 +15,7 @@ function Slider() {
     }, [])
 
   return (
-    <div className="App">
+    <div className="CommentarySlider">
         <motion.div ref={carousel} className="carousel" whileTap={{ cursor: "grabbing" }}>
             <motion.div 
                 className="inner" 
@@ -32,7 +29,6 @@ function Slider() {
                 {images.map(image => (
                     <motion.div className="item" key={image}>
                         <img src={image} alt="" />
-                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, cum sequi? Delectus temporibus consequatur sequi similique aliquam accusantium doloribus, numquam deleniti? Ipsa earum itaque minima consectetur, a pariatur omnis similique. </p>
                     </motion.div>
                 ))}
 
@@ -42,4 +38,4 @@ function Slider() {
   )
 }
 
-export default Slider
+export default CommentarySlider
