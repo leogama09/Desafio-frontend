@@ -26,7 +26,7 @@ class Asidemobile extends Component {
                   <div className="courses">
                     <h3>Más cursos</h3>
                     <ul>
-                        {/* Images was downloaded with "markers" = white dot beside them (I cant delete) */}
+                        {/* Images were downloaded with "markers" = white dot beside them (I cant delete) */}
                         <li><input type="image" src={courses} /></li>
                         <li><input type="image" src={courses2} /></li>
                     </ul>
@@ -49,7 +49,8 @@ class Asidemobile extends Component {
 
                         {/* these inputs below are identified as inputs by chrome navigator 
                         but its not working as input buttons for some reason. 
-                        (I repeated the same code everywhere and worked everytime) */}
+                        (I repeated the same code everywhere and worked everytime,
+                        but its not working here.) */}
                         <li><input type="image" src={facebook} /></li> 
                         <li><input type="image" src={instagram} /></li>
                         <li><input type="image" src={twitter} /></li>
