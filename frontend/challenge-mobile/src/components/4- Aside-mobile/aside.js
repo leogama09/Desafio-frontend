@@ -48,7 +48,7 @@ class Asidemobile extends Component {
                     <ul>  
 
                         {/* these inputs below are identified as inputs by chrome navigator 
-                        but it is not working as input buttons for some reason. 
+                        but its not working as input buttons for some reason. 
                         (I repeated the same code everywhere and worked everytime) */}
                         <li><input type="image" src={facebook} /></li> 
                         <li><input type="image" src={instagram} /></li>
